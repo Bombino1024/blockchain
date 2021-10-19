@@ -1,0 +1,124 @@
+{
+  "contractName": "TodoList",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/marti/Documents/GitHub/blockchain/smart-contracts/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/marti/Documents/GitHub/blockchain/smart-contracts/contracts/TodoList.sol\":{\"keccak256\":\"0xb61b3a86d6288569e0da4eb14515bbda268192747f7590af7540fd2897a402dd\",\"urls\":[\"bzz-raw://ecddda9c9ec0ac3f0c412a03abfe549caeeb92e86b94aee904ac52587ad2a9ef\",\"dweb:/ipfs/QmWDHT8jMdwZgva4hTM3HSqPdUjTyvJ8t1gj36i2nvibhb\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820518c6afa871abc10487cba3866330b517def6cfc8bb1bc25c7f18efb31da102764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820518c6afa871abc10487cba3866330b517def6cfc8bb1bc25c7f18efb31da102764736f6c63430005100032",
+  "sourceMap": "27:28:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:28:1;;;;;;;",
+  "deployedSourceMap": "27:28:1:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract TodoList {\r\n    \r\n}",
+  "sourcePath": "C:/Users/marti/Documents/GitHub/blockchain/smart-contracts/contracts/TodoList.sol",
+  "ast": {
+    "absolutePath": "/C/Users/marti/Documents/GitHub/blockchain/smart-contracts/contracts/TodoList.sol",
+    "exportedSymbols": {
+      "TodoList": [
+        35
+      ]
+    },
+    "id": 36,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 35,
+        "linearizedBaseContracts": [
+          35
+        ],
+        "name": "TodoList",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 36,
+        "src": "27:28:1"
+      }
+    ],
+    "src": "0:55:1"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/C/Users/marti/Documents/GitHub/blockchain/smart-contracts/contracts/TodoList.sol",
+      "exportedSymbols": {
+        "TodoList": [
+          35
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 34,
+        "name": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            35
+          ],
+          "name": "TodoList",
+          "nodes": [
+            null
+          ],
+          "scope": 36
+        },
+        "id": 35,
+        "name": "ContractDefinition",
+        "src": "27:28:1"
+      }
+    ],
+    "id": 36,
+    "name": "SourceUnit",
+    "src": "0:55:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x3439068317670f079F3f846D8a3169D80faBc6bf",
+      "transactionHash": "0x842f2f596f9a3fef12d60cb55f8b452c6048254a5f79b95ca6f3208655dd6c6d"
+    }
+  },
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-10-19T09:18:50.306Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
