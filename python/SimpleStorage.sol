@@ -1,5 +1,8 @@
 pragma solidity >=0.6.2 <0.9.0;
 
+// https://remix.ethereum.org/
+	// Download all Files as a backup zip
+	// Restore files from backup zip
 // https://github.com/smartcontractkit/full-blockchain-solidity-course-py
 // https://www.youtube.com/watch?v=M576WGiDBdQ
 // 1:59:43
