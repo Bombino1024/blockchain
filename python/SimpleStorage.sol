@@ -1,11 +1,24 @@
+// SPDX-Licence-Identifier: MIT
+// licence -> who can use this, how he can use it, ...
+
+// Deployement:
+// JavaScript VM - virtual machine only for myself
+// Injected Web3
+    // - testing so other people can see it
+    // - metamask - Rinkeby test network
+    // - get test ethereum
+        // https://docs.chain.link/docs/link-token-contracts/
+        // Rinkeby
+        // Testnet ETH is available from: https://faucets.chain.link/rinkeby
+        // after deployement visible on etherscan
+            // metamask view transaction (contract deployement)
+            // to: <address of contract on etherscan> (clickable)
+// Web3 Provider - if we wanna user out own blockchain node / blockchain provider
 pragma solidity >=0.6.2 <0.9.0;
 
 // https://remix.ethereum.org/
-	// Download all Files as a backup zip
-	// Restore files from backup zip
 // https://github.com/smartcontractkit/full-blockchain-solidity-course-py
 // https://www.youtube.com/watch?v=M576WGiDBdQ
-// 1:59:43
 
 contract SimpleStorage {
     
@@ -42,8 +55,14 @@ contract SimpleStorage {
     // defining how to store object during execution:
     // memory -> only stored during execution of the function
     // storage -> will persist in memory even after the execution of the function
-    function addPersopn(string memory _name, uint256 _favNumber) public {
+    function addPerson(string memory _name, uint256 _favNumber) public {
         people.push(Person(_favNumber, _name));
     }
     
+    // data struct which returns object based on key
+    mapping(string => uint256) public favNumberByName;
+    
+    function addFavNumber(string memory _name, uint256 _favNumber) public {
+        favNumberByName[_name] = _favNumber;
+    }
 }
