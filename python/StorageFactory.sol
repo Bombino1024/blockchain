@@ -21,6 +21,11 @@ contract StorageFactory {
     // When you wanna interact with smart contract you need:
     // - Address
     // - ABI (application binary interface)
+    /*
+        To interact with a contract you need function signatures. It's enough to take the interface
+        and call it with the address. Then it will "fill" the implementation of the methods
+        with implementation of contract on that specified address.
+    */
     function sfStore(uint256 _simpleStorageIndex, uint256 _simpleStorageNumber) public {
         // This will return the address of contract that we wanna interact with
         SimpleStorage simpleStorage = 

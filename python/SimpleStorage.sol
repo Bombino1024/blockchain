@@ -19,6 +19,7 @@ pragma solidity >=0.6.2 <0.9.0;
 // https://remix.ethereum.org/
 // https://github.com/smartcontractkit/full-blockchain-solidity-course-py
 // https://www.youtube.com/watch?v=M576WGiDBdQ
+// 2:07:35
 
 contract SimpleStorage {
     
@@ -29,7 +30,7 @@ contract SimpleStorage {
     // private -> only callable from other functions inside the contract
     // external -> can only be called outside the contract
     // internal -> like private but can also be called by contracts that inherit from the current one (protected)
-    function store(uint256 _favNumber) public {
+    function storeFavNumber(uint256 _favNumber) public {
         favNumber = _favNumber;
     }
     
