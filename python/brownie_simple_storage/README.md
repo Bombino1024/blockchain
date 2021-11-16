@@ -17,4 +17,5 @@ brownie accounts new bombi-account
 ```
 
 Add private key from Metamask
+
 Enter password (test)
