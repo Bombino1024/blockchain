@@ -14,8 +14,11 @@ By default brownie will run a local ganache network with bunch of fake accounts
 
 ```
 brownie accounts new bombi-account
+# Add private key from Metamask
+# Enter password (test)
 ```
 
-Add private key from Metamask
-
-Enter password (test)
+```
+brownie accounts list
+brownie accounts delete <account name>
+```

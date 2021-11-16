@@ -2,7 +2,7 @@ from brownie import accounts
 
 
 def deploy_simple_storage():
-    account = accounts[0]
+    account = accounts.load("bombi-account")
     print(account)
 
 
