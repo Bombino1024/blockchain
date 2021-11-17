@@ -54,3 +54,7 @@ brownie run scripts/deploy.py --network rinkeby
 ```
 
 --network network_name will select network to interact with, all other scripts than has to be run with --network network_name
+
+Example:
+brownie run scripts/deploy.py --network rinkeby
+export WEB3_INFURA_PROJECT_ID=4ce2896ad2ed476d9d9a33739c7b88e0
