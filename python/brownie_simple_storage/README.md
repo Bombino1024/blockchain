@@ -60,3 +60,14 @@ Example:
 brownie run scripts/deploy.py --network rinkeby
 
 in .env: export WEB3_INFURA_PROJECT_ID=4ce2896ad2ed476d9d9a33739c7b88e0
+
+## Contract interaction
+
+```
+brownie console
+account = accounts[0]
+simple_storage = SimpleStorage.deploy({"from": account})
+simple_storage.retrieve()
+print("Hello World!")
+...
+```
