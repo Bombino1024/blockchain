@@ -11,7 +11,6 @@ export const WalletBalance = ({ token }: WalletBalanceProps) => {
   const { image, address, name } = token;
   const { account } = useEthers();
   const tokenBalance = useTokenBalance(address, account);
-  console.log(tokenBalance?.toString());
   const formattedTokenBalance: number = tokenBalance
     ? parseFloat(formatUnits(tokenBalance, 18))
     : 0;
