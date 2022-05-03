@@ -1,0 +1,3 @@
+Contract address on kovan = 0x5aE6030269f7c24bEe2F00571C0ED32aAf2789f6 
+
+Contract address on ganache-local = 0x005f0E290e5449246c5bD6ea3D03F9C1A6802366

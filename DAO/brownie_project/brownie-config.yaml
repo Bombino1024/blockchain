@@ -1,0 +1,15 @@
+dotenv: .env
+dev_deployment_artifacts: True
+networks:
+  development:
+    verify: False
+  ganache:
+    verify: False
+  kovan:
+    verify: True
+  rinkeby:
+    verify: True
+  ganache-local:
+    verify: False
+wallets:
+  from_key: ${PRIVATE_KEY}
